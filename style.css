@@ -1,0 +1,219 @@
+*{
+	margin:0;
+	padding: 0;
+	border:0;
+}
+body 
+{
+	background:#ff795c;
+	color: #67727a;
+	font:'helvetica' san-serif;
+	margin: 0;
+}
+
+h2{
+	
+	font-size: 200%;
+	font-weight:700%;
+	text-align: center;
+	padding-top: 2%;
+}
+h3{
+	
+	font-size: 150%;
+	line-height: 155%;
+	padding : 5% 0;
+	font-weight: 400%;
+
+}
+p{
+	
+	font-size: 160%;
+	line-height: 150%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+img{
+
+	max-width: 100%;
+	margin-bottom: -4px;
+}
+
+header{
+	background-color: #ff5733;
+	width: 100%;
+	height: 86px;
+}
+
+button{
+	border: none;
+	outline: none;
+	background: rgba(255,255,255,0.5);
+	width: 100px;
+	height:50px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: left;
+	
+}
+
+button:hover{
+background:#e54e2d;
+color: #f6f6f6;
+}
+
+table {
+	
+	width: 500px;
+	position: absolute;
+	padding: none;
+
+	transform: translateX(-50%) translateY(-50%);
+	background:none;
+	align-items: center;
+	margin-top:15%;
+	margin-left: 50%; 
+}
+tr td{
+	border-collapse: collapse;
+	padding:none;
+
+}
+
+#header-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#logo{
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	
+
+	}
+
+nav {
+	float: right;
+ 	padding: 25px 20px 0 0;
+ }
+
+ #menu-icon{
+ 	display: hidden;
+ 	width: 40px;
+ 	height: 40px;
+  	background: url(img/nav.png) center;
+ 	}
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+ul{
+	 list-style-type: none;
+}
+nav ul li{
+
+	font-family: 'helvetica' san-serif;
+	font-size: 100%;
+	display: inline-block;
+	float: left;
+	padding:  10px
+}
+nav ul li a{
+	color: #f5f5f5;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #c3d7df;
+}
+.current {
+	color: #c3d7df;
+
+}
+
+.banner{
+	width: 100%;
+	background-color:#ff795c;
+	}
+.banner-inner{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.one-fourth{
+	width: 16.06%;
+	float: left;
+	text-align: center;
+	padding: 0.3% 0.3% 0.5% 0.3%;
+
+}
+
+#vocab{
+	background-color: #f1aa90;
+}
+
+#vr{
+	background-color: #f1aa90;
+}
+#qr{
+	background-color: #FFA997;
+}
+#ballot{
+	background-color: #FFA997;
+}
+#subject{
+	background-color: #f1aa90;
+}
+#words{
+	background-color: #FFA997;
+}
+.wrapper{
+	float: left;
+	width: 100%;
+	background-color: #ff795c;
+}
+
+article{
+	float:left;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+	
+}
+#tablet{
+	background-color: #ff795c;
+
+}
+aside{
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+}
+#tablet1{
+	background-color:#ff795c;
+}
+
+#mobile{
+	background-color:#ff795c ;
+
+}
+
+
+aside{
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+}
+#mobile1{
+	background-color:#ff795c;
+}
+
+
+
+
+
+
+
